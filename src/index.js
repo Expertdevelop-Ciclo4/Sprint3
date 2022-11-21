@@ -1,6 +1,7 @@
 const express = require ('express');
 const mongoose = require('mongoose');
 require ('dotenv').config();
+
 const productoRoute=require('../src/routes/productoAdministrador')
 const clienteRoute=require('../src/routes/productoCliente')
 
